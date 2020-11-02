@@ -1,0 +1,23 @@
+package Traitement_perso;
+import java.util.Scanner;
+
+public class arret {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int tab [] = {1,3,8,5,14,3,3,5,12,7};
+int i = 0;
+int valeur = 0;
+
+System.out.println("Entre la valeur à chercher");
+Scanner clavier = new Scanner(System.in);
+
+i=0;
+
+while ((tab[i] != valeur) && (i<10)){
+	}
+i++;
+
+}
+	if (i<10)
+		System.out.println

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Exer11Alg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  Scanner clavier = new Scanner(System.in);
+  
+  System.out.println("Entrée un nombre pour la taille du tableau");
+  int nombre = clavier.nextInt();
+  int tab[] = new int[nombre + 3];
+  
+  for (int i = 1; i < nombre; i++) {
+	  System.out.println("Entrée une valeur à la position " +i+ " du tableau");
+	  tab[i] = clavier.nextInt();
+	  
+}
+   
+		  
+	}
+
+}

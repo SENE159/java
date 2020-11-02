@@ -1,0 +1,18 @@
+
+public class testu {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int occurence = 0;
+		int valeur = 8;
+		int tab [] = {5,7,8,10,8,8,8,11};
+		for (int i = 0 ; i < 8 && occurence < 1; i++) {
+			if (tab[i] == valeur) occurence++ ;
+			
+			
+			System.out.println("La position de la derniere occurence : \n" + tab[i]) ;
+	}
+
+}
+	}
+

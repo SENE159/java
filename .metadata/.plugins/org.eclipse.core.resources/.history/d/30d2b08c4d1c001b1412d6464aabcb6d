@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Exer13Algo3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  Scanner clavier = new Scanner(System.in);
+  int i = 0;
+  System.out.println("Entree un nombre pour la taille du tableau");
+  int nombre = clavier.nextInt();
+  int tab[] = new int [nombre];
+   
+  for (i = 0; i < nombre; i++) {
+	  System.out.println("Entree la valeur à la position" +i+ " du tableau");
+	  tab[i] = clavier.nextInt();
+	  
+	 
+}
+
+  System.out.println("la tab["+i+"] est égale à :"+tab[i]);
+  
+  
+	}
+
+}

@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Exer11Algo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner clavier = new Scanner(System.in);
+		  
+		  System.out.println("Entrée un nombre pour la taille du tableau");
+		  int nombre = clavier.nextInt();
+		  int tab [] = new int [nombre + 1];
+		  
+		  for (int i = 0; i < nombre; i++) {
+			  System.out.println(" Entrée la position " + i + " du tableau");
+			  tab [i] = clavier.nextInt();
+			
+		}
+		  ArrayList<Integer> array = new ArrayList<Integer>();
+		  array.add(tab[0]);
+		  array.set(tab [0], 12);
+		  array.add(tab[nombre/2]);
+		  array.set(tab [nombre/2], 12);
+		  array.add(tab[nombre]);
+		  array.set(tab [nombre], 12);
+		  
+		  System.out.println(array.get(tab[0]));
+		  System.out.println(array.get(tab[nombre/2]));
+		  System.out.println(array.get(tab[nombre]));
+	}
+
+}

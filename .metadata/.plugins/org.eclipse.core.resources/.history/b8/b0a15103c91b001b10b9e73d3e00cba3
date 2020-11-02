@@ -1,0 +1,21 @@
+
+public class Testtabliv1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String tab[] = new String [5];
+		int j;
+		tab[0] = "balbuzard pecheur";
+		tab[1] = "OIE BERNACHE";
+		tab[2] = new String();
+		tab[4] = new String ("VERDIER");
+		
+		for ( j = 0; j < 5; j++) {
+			
+		}
+				System.out.println("la tab["+j+"] est égale à :" +tab[j]);
+				
+			}
+	}
+
+

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class consulte {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner clavier = new Scanner(System.in);
+		
+		double nombre = 0;
+		double var = 0;
+		int i = 0;
+		double tab[] = new double [i];
+	    nombre = clavier.nextDouble();
+    
+    for (i = 0; i < tab.length; i++) {
+		System.out.println(i);
+	}
+    
+    
+    
+	}
+
+}

@@ -1,0 +1,21 @@
+
+public class Testtabliv2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  int tab[][] = new int[3][4];
+  int lig,col;
+  
+  System.out.println("le nombre de colonne:" + tab.length);
+  System.out.println("Le nombre de ligne d'une colonne : " + tab[0].length);
+  
+  for (lig = 0; lig < 3; lig++) {
+	  for ( col = 0; col < tab[lig].length; col++) {
+		tab[lig][col] = lig + col;
+	}
+	System.out.println(tab[lig][col] +"");
+}
+  System.out.println("\n");
+	}
+
+}

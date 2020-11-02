@@ -1,0 +1,24 @@
+
+public class Testtabliv1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String tab[] = {"balbuzard pecheur","OIE BERNACHE","","","VERDIER"};
+		String i;
+		System.out.println("le contenu du tableau ");
+		
+		
+			
+		}
+		
+	System.out.println("la tab["+i+"] est égale à :" +tab[0]);
+		
+			
+		}
+				
+				
+			}
+	
+
+
