@@ -15,12 +15,34 @@ public class Exer13Algo3 {
 	
 	 int permutation = 0;
 	 
+	 int nombrepermut = 0;
 	 
+	 do {
+		 nombrepermut = 0;
+		 
+		 for(i= 0; i <= 4; i++) 
+		 {
+			 if (tab[i] > tab[i+1]) 
+			 {
+				 permutation = tab[i];
+				 tab[i] = tab[i+1];
+				 tab[i + 1] = permutation;
+				 nombrepermut++;
+			 }
+		 }
+	 }
+	 
+	 
+	 while (nombrepermut != 0);
 	 
 	
-}
-  
+	
+
+	for (i= 0; i<= 5; i++) {
+	
+	System.out.println(tab[i]);
   
 	}
-
+}
+}
 
