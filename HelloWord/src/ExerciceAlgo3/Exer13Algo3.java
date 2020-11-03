@@ -27,7 +27,8 @@ public class Exer13Algo3 {
 				 permutation = tab[i];
 				 tab[i] = tab[i+1];
 				 tab[i + 1] = permutation;
-				 nombrepermut++;
+				 
+				  nombrepermut++;
 			 }
 		 }
 	 }
