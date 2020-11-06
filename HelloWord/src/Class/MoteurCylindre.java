@@ -1,5 +1,9 @@
 package Class;
 
-public class MoteurCylindre {
+public class MoteurCylindre extends VoitureMoteur{
+
+	public MoteurCylindre() {
+		
+	}
 
 }

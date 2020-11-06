@@ -1,5 +1,9 @@
 package Class;
 
-public class PneuRoue {
+public class PneuRoue extends VoitureRoue {
+
+	public PneuRoue() {
+		
+	}
 
 }
