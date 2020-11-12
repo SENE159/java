@@ -8,6 +8,7 @@ public class Etudiant extends Personne {
 this.numero_carte_etudiant = 34567;
 }
 
+	
 	public int getNumero_carte_etudiant() {
 		return numero_carte_etudiant;
 	}

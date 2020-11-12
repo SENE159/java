@@ -4,6 +4,7 @@ import java.sql.Date;
 
 public class Personne {
 
+	
 	private String nom;
 	private Date date_naissance;
 	private int salaire;

@@ -7,6 +7,7 @@ public class Homme {
 	private Double poids;
 	private String nom;
 	
+	
 	public Homme() {
 		
 	}

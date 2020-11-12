@@ -8,6 +8,7 @@ public class Employe extends Personne {
    this.setSalaire(1500);
 	}
 
+	
 	public float getSalaire() {
 		return salaire;
 	}
