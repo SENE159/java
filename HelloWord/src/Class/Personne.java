@@ -22,7 +22,7 @@ public class Personne {
    public void setNom(String nom) {
 	   this.nom = nom;
    }
-   public String getNom(){
+   public  String getNom(){
 	   return nom;
    }   
      

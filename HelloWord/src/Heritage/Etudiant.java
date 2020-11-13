@@ -1,5 +1,7 @@
 package Heritage;
 
+import Traitement_perso.Personne;
+
 public class Etudiant extends Personne {
 	
 	private int numero_carte_etudiant;
@@ -7,8 +9,6 @@ public class Etudiant extends Personne {
 	public Etudiant() {
 this.numero_carte_etudiant = 34567;
 }
-
-	
 	public int getNumero_carte_etudiant() {
 		return numero_carte_etudiant;
 	}

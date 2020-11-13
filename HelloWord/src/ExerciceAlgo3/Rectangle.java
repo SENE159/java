@@ -16,11 +16,11 @@ public  class Rectangle {
 		
 		
 	}
-	public int Surface() {
-		return ((this.x2 - this.x1) * (this.y2 - this.y1) );
+	public int CalculSurface() {
+		return ((x2 - x1) * (y2 - y1) );
 	}
 	public String toString() {
-		return("Surface : " + Surface());
+		return("Surface : " + CalculSurface());
 		
 	}
 	

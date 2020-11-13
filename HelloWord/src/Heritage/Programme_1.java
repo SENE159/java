@@ -2,15 +2,14 @@ package Heritage;
 
 import java.util.Set;
 
-public class Programme_1  {
+import Traitement_perso.Employe;
 
-	
+public class Programme_1  {
 
 	public static void main(String[] args) {
 		
 		Employe employe = new Employe();
 		Etudiant etudiant = new Etudiant();
-		
 		
 		System.out.println(employe.getSalaire());
 		System.out.println(etudiant.getNumero_carte_etudiant());

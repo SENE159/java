@@ -8,17 +8,7 @@ public class MonVoiturePlus {
 		Voiture v1 = new Voiture("Rose","Renault","Clio 4");
 		Voiture v2 = new Voiture("Blanche","BMW","Serie 5");
 		
-		VoitureRoue roue1 = new VoitureRoue();
-		VoitureRoue roue2 = new VoitureRoue();
-		VoitureRoue roue3 = new VoitureRoue();
-		VoitureRoue roue4 = new VoitureRoue();
 		
-		VoiturePorte portiere1 = new VoiturePorte();
-		VoiturePorte portiere2= new VoiturePorte();
-		VoiturePorte portiere3 = new VoiturePorte();
-		VoiturePorte portiere4 = new VoiturePorte();
-		
-		VoitureMoteur moteur = new VoitureMoteur();
 		
 		
 		
@@ -33,5 +23,6 @@ public class MonVoiturePlus {
 		
 		
 	}
-
+	
 }
+

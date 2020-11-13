@@ -3,11 +3,9 @@ package Heritage;
 public class Conducteur extends Homme {
   
 	private boolean moteur;
-	public Conducteur() {
-		
+	public Conducteur() {	
 		
 }
-	
 	public void conduire() {
 		
 }

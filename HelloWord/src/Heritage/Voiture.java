@@ -6,8 +6,6 @@ public class Voiture extends Conducteur{
 	private String portiere;
 	private String pneu;
 
-	
-	
 	public Voiture (boolean moteur, String portiere, String pneu) {
     this.moteur = true;
     this.portiere = portiere;
