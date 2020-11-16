@@ -14,7 +14,6 @@ public class Adresse {
     this.codePostal = 59650;
 }
 
-	public Adresse(String nom) {
-		// TODO Auto-generated constructor stub
-	}
+	
 }
+

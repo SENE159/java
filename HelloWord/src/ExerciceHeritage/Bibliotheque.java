@@ -1,35 +1,30 @@
 package ExerciceHeritage;
 
-public class Bibliotheque extends Adresse {
+public class Bibliotheque  {
 	
 	
-	private String nom;
-	private Adresse adresse;
-	private Document [] documents;
+	protected String nom;
+	protected Adresse adresse;
+	protected Document [] documents;
 	
-	public Bibliotheque(Integer numero, String rue, String ville, Integer codePostal) {
-		super(numero, rue, ville, codePostal);
-		
+
+
+		public Bibliotheque(String nom, Adresse adresse, Document[] documents) {
+		super();
+		this.nom = nom;
+		this.adresse = adresse;
+		this.documents = documents;
 	}
-
-		
-	public Bibliotheque(String Lilliad, Adresse adresse, Document[] documents) {
-		super(Lilliad);
-		
-
-
-
-
-
-
-	}
-
-
-
 
 
 		public void afficherDocuments() {
+			int i = 0;
+			while ( i < this.documents.length && this.documents[i] != null) {
+				System.out.println(this.documents[i++]);
+			
 	}
-	
-
+		}
 }
+
+
+

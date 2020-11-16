@@ -2,14 +2,25 @@ package ExerciceHeritage;
 
 public class Article extends Document{
 
-	private String doi;
+	protected String doi;
+	protected String Autheur;
+	protected String titre;
+
 	
-    public Article(String string, String string2) {
-		// TODO Auto-generated constructor stub
+	public Article(String autheur, String titre, Integer anneeDeParution2, String doi) {
+		super(autheur, titre, anneeDeParution2);
+		this.doi = doi;
+		Autheur = autheur;
+		titre = titre;
 	}
 
+	@Override
 	public String toString() {
-		return "titre" + titre +"Autheur"+ Autheur + "anneeDeParution"+ anneeDeParution +"doi"+doi;
+		return super.toString()+" (DOI = "+this.doi+")";
+	}
+
+
 	
-}
+		
+	
 }

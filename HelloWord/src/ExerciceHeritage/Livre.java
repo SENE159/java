@@ -2,14 +2,23 @@ package ExerciceHeritage;
 
 public class Livre extends Document {
 
-	private String isbn;
-
-
-	public Livre(String string, String string2, int i, String string3) {
-		// TODO Auto-generated constructor stub
+	protected String isbn;
+	
+	public Livre(String autheur, String titre, Integer anneeDeParution, String isbn) {
+		super(autheur, titre, anneeDeParution);
+		this.isbn = isbn;
 	}
 
+	
+
+	@Override
 	public String toString() {
-		return "titre" + titre +"Autheur"+ Autheur + "anneeDeParution"+ anneeDeParution +"isbn"+isbn;
-}
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+	
+	
 }
